@@ -19,12 +19,12 @@ Prevents unnecessary glitch check for non-GNSS copter
 
 - Changes already mentioned in the proposal
 - Rover was already working fine, so all the changes in parameters and code is done related to multicopter
-- Munticopter, as of now, can hold/maintain its altitude even after giving 2D-nav-goals from RVIZ
-- Some minor bugs in obstacle avaoidance but thode are only for multicopter. For rover, it is working perfectly fine
+- Multicopter, as of now, can hold/maintain its altitude even after giving 2D-nav-goals from RVIZ
+- Some minor bugs in obstacle avaoidance but those are only for multicopter. For rover, it is working perfectly fine
 
 ### For integrating the offboard object avoidance with ArduPilot Auto mode
 
-- Made changes according to randy's pull on mavros code
+- Made changes according to Randy sir's pull on mavros code
 - Used mavlink_router and replaced rviz by Mission planner
 - Making changes mention by Voon to make a separate plugin (as already mentioned in my proposal)
 
