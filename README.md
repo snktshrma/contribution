@@ -15,5 +15,5 @@ Prevents unnecessary glitch check for non-GNSS copter
 
 # Non-Ardupilot contributions (related)
 
-### [Extended object tracking using 2D LiDAR scans](https://github.com/snktshrma/obstacle_cluster_detection\)
+### [Extended object tracking using 2D LiDAR scans](https://github.com/snktshrma/obstacle_cluster_detection)
 An obstacle detection module using 2D Lidar scans. The environment contains one or more moving objects. When objects are within the range of 2 meters, a ros message is published as an output containing: the number of obstacles, the distances to the obstacles and the sizes of obstacles.
