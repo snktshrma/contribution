@@ -28,7 +28,7 @@ Prevents unnecessary glitch check for non-GNSS copter
 - Used mavlink_router and replaced rviz by Mission planner
 - Making changes mention by Voon to make a separate plugin (as already mentioned in my proposal)
 
-
+#
 # Non-Ardupilot contributions (related)
 
 ### [Extended object tracking using 2D LiDAR scans](https://github.com/snktshrma/obstacle_cluster_detection)
