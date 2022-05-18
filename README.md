@@ -12,6 +12,22 @@ Added ceresScanMatcher and realtimeCorrelativeScanMatching tuning parameters in 
 ### [Copter: Remove glitch check for non-GNSS vehicle](https://github.com/ArduPilot/ardupilot/pull/20565)
 Prevents unnecessary glitch check for non-GNSS copter
 
+#
+# GSOC project updates
+
+### All the test related to Non-GPS Navigation and obstacle avoidance done on simulation
+
+- Changes already mentioned in the proposal
+- Rover was already working fine, so all the changes in parameters and code is done related to multicopter
+- Munticopter, as of now, can hold/maintain its altitude even after giving 2D-nav-goals from RVIZ
+- Some minor bugs in obstacle avaoidance but thode are only for multicopter. For rover, it is working perfectly fine
+
+### For integrating the offboard object avoidance with ArduPilot Auto mode
+
+- Made changes according to randy's pull on mavros code
+- Used mavlink_router and replaced rviz by Mission planner
+- Making changes mention by Voon to make a separate plugin (as already mentioned in my proposal)
+
 
 # Non-Ardupilot contributions (related)
 
